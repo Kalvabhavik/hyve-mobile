@@ -224,7 +224,7 @@ class _PrimaryButtonState extends State<PrimaryButton>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   final Duration _animationDuration = const Duration(milliseconds: 300);
-  final Tween<double> _tween = Tween<double>(begin: 1.0, end: 0.95);
+  final Tween<double> _tween = Tween<double>(begin: 1.0, end: 0.80);
 
   @override
   void initState() {
